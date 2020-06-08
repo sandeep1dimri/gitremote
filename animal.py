@@ -1,10 +1,15 @@
 import sys
 
+def dog():
+	print("woof woof!")
 def default():
 	print("No Animal Sound")
 
 def main():
-	default()
+	if sys.argv[1]=='dog':
+		dog()
+	else:
+		default()
 
 if __name__=="__main__":
 	main()
