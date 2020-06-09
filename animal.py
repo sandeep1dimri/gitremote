@@ -2,7 +2,7 @@ import sys
 
 
 def cat():
-	print("meow meow!!")
+	print("meow meow meow!!!!")
 
 
 def dog():
